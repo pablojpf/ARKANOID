@@ -114,5 +114,9 @@ public class ControlDeJuego : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    public void CargaSecreto()
+    {
+        SceneManager.LoadScene(7);
+    }
 
 }
